@@ -149,48 +149,53 @@
         flex-direction: row;
         align-items: center;
         width: 100%;
-        justify-content: space-around;
+        justify-content: center;
         padding-bottom: 3%;
     }
 
-    #txth3{
-        color: #F3C61F;
-        height: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: clamp(0.5em, 0.5em + 0.8vw, 2em);
-        padding: 1% 4%;
-    }
-
-    #pass{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0% 10% 0% 4%;
-        width: 100%;
-    }
-
-    .pass{
-
-        height: 160px;
-    }
-
-    button{
-        background-color: #514988;
-        color: #ffffff;
-        font-size: larger;
-        border-radius: 21rem;
-        width: 20rem;
-        height: 5rem;
-    }
-
-        button:hover {
-            background: #514988;
-            cursor: pointer;
+        #txth3{
             color: #F3C61F;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: clamp(0.5em, 0.5em + 0.8vw, 2em);
+            padding: 1% 4%;
         }
+
+        #pass{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .pass{
+
+            height: 160px;
+        }
+
+        #botao{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+
+        button{
+            background-color: #514988;
+            color: #ffffff;
+            font-size: larger;
+            border-radius: 21rem;
+            width: 20rem;
+            height: 5rem;
+        }
+
+            button:hover {
+                background: #514988;
+                cursor: pointer;
+                color: #F3C61F;
+            }
 
 @media only screen and (max-width: 915px){
 
