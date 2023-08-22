@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav{
+    background-color: #F3C61F;
+    margin: 0px;
+    width: 100%;
+}
+
+    #ccpx{
+        padding: 2% 5%;
+    }
+
+.mid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+    #mid1{
+        background-color: #514988;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    #titulos{
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 3% 3% 0% 3%;
+    }
+
+    #titulos h1{
+        color: #F3C61F;
+        font-size: clamp(1em, 1em + 3vw, 4em);
+        padding: 3%;
+    }
+
+    #titulos h3{
+        color: #ffffff;
+        font-size: clamp(0.5em, 0.5em + 1vw, 2.8em);
+        padding: 3%;
+    }
+
+    #txt{
+        height: 350;
+        font-size: 20px;
+        padding: 3% 10%;
+    }
+
+    #txt p{
+        padding: 2%;
+        font-size: clamp(0.5em, 0.5em + 1vw, 2.8em);
+        color: white;
+        background-color: #514988;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    #mid2{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+        height: 500px;
+        width: 100%;
+        padding: 0% 2%;
+    }
+
+    .regressiva{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        width: 100%;
+        font-size: clamp(0.7em, 0.7em + 3vw, 3em);
+    }
+
+    #dias{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5% 3% 3%;
+        font-size: clamp(0.5em, 0.5em + 0.5vw, 2em);
+    }
+
+    #horas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5% 3% 3%;
+        font-size: clamp(0.5em, 0.5em + 0.5vw, 2em);
+    }
+
+    #minutos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5% 3% 3%;
+        font-size: clamp(0.5em, 0.5em + 0.5vw, 2em);
+    }
+
+    #segundos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5% 3% 3%;
+        font-size: clamp(0.5em, 0.5em + 0.5vw, 2em);
+    }
+
+    #mid2txt{
+        font-size: clamp(0.5em, 0.5em + 1vw, 2.8em);
+        font-weight: bold;
+        text-align: center;
+        color: #514988;
+    }
+
+    #vid{
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+    #enddiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        padding-bottom: 3%;
+    }
+
+    #txth3{
+        color: #F3C61F;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: clamp(0.5em, 0.5em + 0.8vw, 2em);
+        padding: 1% 4%;
+    }
+
+    #pass{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0% 10% 0% 4%;
+        width: 100%;
+    }
+
+    .pass{
+
+        height: 160px;
+    }
+
+    button{
+        background-color: #514988;
+        color: #ffffff;
+        font-size: larger;
+        border-radius: 21rem;
+        width: 20rem;
+        height: 5rem;
+    }
+
+        button:hover {
+            background: #514988;
+            cursor: pointer;
+            color: #F3C61F;
+        }
+
+@media only screen and (max-width: 915px){
+
+    #nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0%;
+        height: auto;
+        width: 100%;
+    }
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+        #mid1{
+            width: 100%;
+            height: auto;
+            padding: 5% 0%;
+        }
+        
+        #mid2{
+            width: 80%;
+            height: auto;
+        }
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        width: 90%;
+    }
+
+        #txth3{
+            text-align: center;
+            width: 100%;
+            padding: 3% 0%;
+        }
+
+        #enddiv{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+            padding: 0;
+        }
+
+        #pass1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            height: auto;
+            width: 100%;
+            padding: 0%;
+        }
+
+        #pass2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            height: auto;
+            width: 100%;
+            padding: 0%;
+        }
+
+        .pass{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: auto;
+            width: 40%;
+            padding: 5%;
+        }
+
+        #enddiv button{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 3rem;
+            width: 15rem;
+        }
+
+        #botao{
+            padding: 5% 0%;
+        }
+}
