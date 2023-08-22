@@ -164,8 +164,8 @@
         }
 
         #pass{
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-auto-flow: column;
             align-items: center;
             justify-content: center;
             width: 100%;
